@@ -28,9 +28,10 @@ width: 100%;
 
 .navbar-container{
   display: flex;
-  justify-content: space-between;
   margin: 6px 18px;
   position: relative;
+  justify-content: space-between;
+  
 }
 .marquee-text{
   font-size: 29px;
@@ -65,10 +66,14 @@ width: 100%;
     margin-left: 6px;
 }
 .logo{
-  color: gray;
+  color: green;
   font-size: 18px;
-
+  border-style: solid;
+  border-color: teal;
+  padding: 0px 5px 0px 5px;
+  
 }
+
 .cart-icon{
   font-size: 25px;
   color: gray;
@@ -77,6 +82,7 @@ width: 100%;
   transition: transform .4s ease;
   border: none;
   background-color: transparent;
+  
 }
 .cart-icon:hover{
   transform: scale(1.1,1.1);

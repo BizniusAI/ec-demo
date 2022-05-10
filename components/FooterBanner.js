@@ -1,5 +1,5 @@
 import React from 'react';
-import Link from 'next/link';
+import Link from 'next/link'; // href in Next.js
 
 import { urlFor } from '../lib/client';
 
