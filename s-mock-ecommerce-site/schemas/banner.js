@@ -1,3 +1,4 @@
+// schema for product on the banner for the front page.
 export default {
     name: 'banner',
     title: 'Banner',

@@ -82,14 +82,14 @@ const ProductDetails = ({ product, products }) => {
 }
 
 export const getStaticPaths = async () => {
-  const query = `*[_type == "product"] {
+  const productQuery = `*[_type == "product"] {
     slug {
       current
     }
   }
   `;
 
-  const products = await client.fetch(query);
+  const products = await client.fetch(productQuery);
 
   const paths = products.map((product) => ({
     params: { 

@@ -3,7 +3,7 @@ import Head from 'next/head';
 
 import Navbar from './Navbar';
 import Footer from './Footer';
-
+// Layout created to keep banner from streching to eachside of the page
 const Layout = ({ children }) => {
   return (
     <div className="layout">

@@ -1,10 +1,10 @@
-import React, { createContext, useContext, useState, useEffect } from 'react';
-import { toast } from 'react-hot-toast';
+import React, { createContext, useContext, useState, useEffect} from 'react';
+import { toast } from 'react-hot-toast'; // creates pop-up notification
 
 const Context = createContext();
 
 export const StateContext = ({ children }) => {
-  const [showCart, setShowCart] = useState(false);
+  const [showCart, setShowCart] = useState(false); 
   const [cartItems, setCartItems] = useState([]);
   const [totalPrice, setTotalPrice] = useState(0);
   const [totalQuantities, setTotalQuantities] = useState(0);
@@ -78,7 +78,7 @@ export const StateContext = ({ children }) => {
 
   return (
     <Context.Provider
-      value={{
+      value={{ // access any value from anywhere in our application
         showCart,
         setShowCart,
         cartItems,

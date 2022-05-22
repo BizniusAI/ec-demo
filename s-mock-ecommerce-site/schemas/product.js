@@ -1,3 +1,4 @@
+// schema created to user to add products to the site
 export default { // export schema as a basic javascript object
     name: 'product',
     title: 'Product',
@@ -9,7 +10,7 @@ export default { // export schema as a basic javascript object
         type: 'array',
         of: [{ type: 'image' }], // sanity docs array of images 
         options: {
-          hotspot: true, // Enables the user interface for selecting what areas of an image should always be cropped
+          hotspot: true, // Enables the user interface to be able to select what areas of an image should always be cropped
         }
       },
       { 

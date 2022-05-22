@@ -2,10 +2,10 @@ import React from 'react';
 import Link from 'next/link';
 
 import { urlFor } from '../lib/client';
-
+// Renders each product from sanity onto the homepage
 const Product = ({ product: { image, name, slug, price } }) => {
-  return (
-    <div>
+  return (// Link to product detail page
+    <div> 
       <Link href={`/product/${slug.current}`}>
         <div className="product-card">
           <img 
