@@ -1,5 +1,5 @@
 # Mock E-commerce Website 
-
+![]()
 ## Summary
 
 This is a modern Full Stack e-commerce website that utilizes the react framework Next.js, Sanity's content management system as a backend and Stripe to perform real-time transactions. 
