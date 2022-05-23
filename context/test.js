@@ -2,7 +2,7 @@ import React, { createContext, useContext, useState, useEffect} from 'react';
 import { toast } from 'react-hot-toast'; // creates pop-up notification
 
 const Context = createContext();
-
+// Context
 export const StateContext = ({ children }) => {
   const [showCart, setShowCart] = useState(false); 
   const [cartItems, setCartItems] = useState([]);

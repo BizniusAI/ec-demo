@@ -26,4 +26,5 @@ Also I wanted understand how to use a more modern React framework like Next.js t
 
 ## Results
 
-This project was difficult to understand but rewarding to develop because of the new features that I had to implement along the way.
+This project was difficult to understand but rewarding to develop because of the new features that I had to implement along the way. Next.js proved to be difficult to learn but I feel as though 
+my understanding of React has improved. 
