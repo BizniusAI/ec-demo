@@ -1,4 +1,3 @@
-//fixes import problem
 {
-    "presets": ["@babel/preset-react"] // to use jsx syntax
-  }
+  "presets": ["@babel/preset-react"]
+}
